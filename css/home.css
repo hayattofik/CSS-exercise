@@ -1,0 +1,204 @@
+
+/* *{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: inherit;
+
+} */
+/* header{
+  position:fixed;
+  width:100%;
+  top: 0;
+  right: 0;
+  z-index : 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: transparent;
+  padding: 10px 5%;
+  transition: 3s;
+}
+.navlist {
+  display:flex;
+  justify-content: space-evenly;
+
+
+
+}
+li{
+  margin: 10px;
+  padding: 20px;
+
+}
+ */
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  
+}
+body{
+  background-color: rgb(229, 206, 182);
+}
+.logo{
+  width: 170px;
+  height:270px;
+  margin:10px;
+  padding: 27px;
+  
+
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+}
+.navlist{
+  display: flex;
+  position: relative;
+ 
+}
+li{
+  margin:10px;
+  padding: 20px;
+  
+}
+.dropdown li a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+
+
+}
+.medpro,.more,.dropdown li a{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  padding: 34px 6px;
+  color: black;
+}
+.patient li {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+
+  /* padding: 24px 6px; */
+  /* margin-top: 55px; */
+  padding-top:27px;
+  color: black;
+}
+.patient li a{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: black;
+}
+.right-nav{
+  margin-left: 0px;
+  margin:10px;
+  padding: 16px;
+  
+}
+.right-nav a{
+ 
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  padding: 14px 30px ;
+  
+
+}
+.login {
+
+ 
+  width: 20px;
+  border-style:solid;
+  border-width: 0.1rem;
+  color:blue;
+
+
+  
+  border-radius: 15px;
+  border-color: blue;
+}
+.pay{
+  width: 20px;
+  border-style:solid;
+  border-width: 0.1rem;
+  color: white;
+  margin-left:1rem;
+
+
+  
+  border-radius: 15px;
+  background-color: rgb(27, 27, 88);
+  
+}
+.pay:hover{
+  background-color: rgb(32, 32, 39);
+}
+.login:hover{
+  background-color: white;
+}
+.dropdown{
+  background-color: white;
+  border-radius: 17px;
+  margin:10px;
+  /* display: none; */
+}
+.dropdown  {
+  display: none;
+}
+
+.dropdown:before{
+  content: '';
+  position: absolute;
+  top:69px;
+  right: 250px;
+  border: 10px solid;
+  border-color:transparent transparent #fff transparent ;
+
+
+}
+#more::before{
+  content: '';
+  position: absolute;
+  top:69px;
+  right: 100px;
+  border: 10px solid;
+  border-color:transparent transparent #fff transparent ;
+
+
+}
+/* #arrow{
+  margin: 20px; 
+  padding: 0px;
+  display: inline;
+} */
+.material-icons a{
+
+  padding-top: 0px;
+}
+#arrow{
+  margin: 0px;
+  padding: 0px;
+}
+ 
+
+#provider a:hover,#more li:hover{
+  background-color: rgb(247, 242, 242);
+
+}
+/* .option-1 li:hover ul{
+  display: block;
+}
+.option-1 li:hover ul{
+  display: block;
+} */
+
+#option-2:hover  ul{
+  display: block;
+}
+#option-1:hover  ul{
+  display: block;
+}
