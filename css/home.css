@@ -43,13 +43,15 @@ li{
   
 }
 body{
-  background-color: rgb(229, 206, 182);
+  background-color: rgb(252, 243, 233);
 }
 .logo{
-  width: 170px;
-  height:270px;
-  margin:10px;
+  width: 250px;
+  height:300px;
+  /* margin:10px; */
+  margin-top:-10px;
   padding: 27px;
+  margin-bottom: 0px;
   
 
 }
@@ -57,21 +59,35 @@ body{
 header{
   display: flex;
   justify-content: space-between;
+  margin-bottom: 0px;
+  padding-bottom: ;
 }
 .navlist{
   display: flex;
   position: relative;
+  margin-bottom: 0px;
  
 }
 li{
   margin:10px;
   padding: 20px;
+  margin-bottom: 0px;
+  
+
   
 }
+.dropdown{
+  position:absolute;
+  /* top:100%;
+  left:0;
+  right:0; */
+  z-index:1;
+}
 .dropdown li a {
+   /* position:absolute; */
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
-
+  font-size: 18px;
+  font-weight:bold;
 
 }
 .medpro,.more,.dropdown li a{
@@ -79,6 +95,7 @@ li{
   font-size: 18px;
   padding: 34px 6px;
   color: black;
+  font-weight:700;
 }
 .patient li {
   font-family: Arial, Helvetica, sans-serif;
@@ -86,17 +103,19 @@ li{
 
   /* padding: 24px 6px; */
   /* margin-top: 55px; */
-  padding-top:27px;
+  /* padding-top:27px; */
   color: black;
 }
 .patient li a{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
+  font-weight:700;
   color: black;
 }
 .right-nav{
   margin-left: 0px;
   margin:10px;
+  margin-bottom: 0px;
   padding: 16px;
   
 }
@@ -145,6 +164,7 @@ li{
   border-radius: 17px;
   margin:10px;
   /* display: none; */
+  margin-bottom: 0px;
 }
 .dropdown  {
   display: none;
@@ -153,8 +173,10 @@ li{
 .dropdown:before{
   content: '';
   position: absolute;
-  top:69px;
-  right: 250px;
+  z-index: 1;
+
+  top:-20px;
+  right: 90px;
   border: 10px solid;
   border-color:transparent transparent #fff transparent ;
 
@@ -163,8 +185,8 @@ li{
 #more::before{
   content: '';
   position: absolute;
-  top:69px;
-  right: 100px;
+  top:-20px;
+  right: 90px;
   border: 10px solid;
   border-color:transparent transparent #fff transparent ;
 
@@ -185,8 +207,9 @@ li{
 }
  
 
-#provider a:hover,#more li:hover{
-  background-color: rgb(247, 242, 242);
+#provider a:hover,#more li a:hover{
+  /* background-color: rgb(247, 242, 242); */
+  color:blueviolet;
 
 }
 /* .option-1 li:hover ul{
@@ -201,4 +224,66 @@ li{
 }
 #option-1:hover  ul{
   display: block;
+}
+.part1 nav{
+  margin: 0px;
+}
+.sec1{
+  display: flex;
+  margin-top: -200px;
+  margin-left:100px;
+  /* position:sticky;
+   */
+  /* margin-top: 0px; */
+  
+  
+}
+.sec1 article{
+  margin-right: 70px;
+  /* padding-top: 200px; */
+}
+.sec1 figure{
+  margin-left: 70px;
+  margin-top: 0px;
+}
+.sec1 article h1{
+  font-size: 3.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 100px;
+}
+.sec1 article p{
+  font-size: 1.5rem;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.doctor{
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  width: 100%;
+  max-width: 500px;
+}
+.sec2{
+  display: flex;
+  margin:100px;
+}
+.phone{
+  width: 80%;
+  height: 100%;
+}
+.sec2 article{
+  /* margin:100px; */
+  padding:40px;
+  font-size: xx-large;
+}
+/* nav ul li {
+  position: relative;
+}
+
+nav ul ul {
+  position: absolute;
+  width: 100%;
+} */
+.medpro:hover #arrowdown{
+  display: none;
 }
