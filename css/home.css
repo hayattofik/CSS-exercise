@@ -212,6 +212,9 @@ li{
   color:blueviolet;
 
 }
+.medpro:hover,.more:hover,#patient:hover{
+  color: blueviolet;
+}
 /* .option-1 li:hover ul{
   display: block;
 }
@@ -264,16 +267,21 @@ li{
   margin-right: auto;
   margin-top: 0px;
   width: 100%;
-  
+  margin-bottom: 0px;
   max-width: 650px;
+}
+.bottom-svg{
+  margin-top: -75px;
+  width:55%;
 }
 .sec2{
   display: flex;
   margin:100px;
 }
 .phone{
-  width: 80%;
+  width: 90%;
   height: 100%;
+  margin-right: 170px;
 }
 .sec2 article{
   /* margin:100px; */
@@ -282,8 +290,22 @@ li{
   font-size: xx-large;
   
 }
+.playstore{
+  display: flex;
+}
+.google-store-button img{
+  width:80%;
+  height: 70%;
+  margin-top: 18px;
+  margin-left: -100px;
+}
+.apple-store-button img{
+  width:60%;
+  height: 50%;
+  margin-top: 33px;
+}
 .sec2 article h1{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 /* nav ul li {
   position: relative;
@@ -295,4 +317,41 @@ nav ul ul {
 } */
 .medpro:hover #arrowdown{
   display: none;
+}
+.sec3 article {
+display: flex;
+flex-direction: column;
+
+align-items: center;
+}
+.sec3 article h1,.grid-to-be h1{
+  font-size: 2.150rem;
+    line-height: 1.17647;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+   
+}
+.sec3 article p,.grid-to-be p{
+  font-size: 1.150rem;
+  line-height: 1.17647;
+  font-weight: 200;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px;
+  
+}
+.grid-to-be {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  /* background-color: #2196F3; */
+  padding: 10px;
+  /* margin: 20px;
+  */
+}
+.quote{
+  background-color: rgb(204, 197, 189);
+  margin:0px 60px;
+}
+.fa {
+color: blueviolet;
 }
