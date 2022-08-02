@@ -189,7 +189,8 @@ li{
   right: 90px;
   border: 10px solid;
   border-color:transparent transparent #fff transparent ;
-
+  
+border-top-right-radius: ;
 
 }
 /* #arrow{
@@ -349,9 +350,56 @@ align-items: center;
   */
 }
 .quote{
-  background-color: rgb(204, 197, 189);
+  background-color: rgb(241, 219, 193);
   margin:0px 60px;
 }
 .fa {
 color: blueviolet;
+}
+.why-article{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+}
+.why{
+  font-size: 2.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.why-answer{
+  font-size: 1.3rem;
+  font-family:Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+}
+.why-graphics{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-top: 40px;
+}
+.time,.easy,.stress{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+  margin-left: 20px;
+
+}
+.why-p{
+  margin-top: 20px;
+  font-size: large;
+  font-weight: 400;
+}
+.time article,.easy article,.stress article{
+  margin-top: -80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+ 
+}
+.time-ill,.phone-ill,.cale-ill{
+  width: 80%;
+  height: 60%;
+  
 }
