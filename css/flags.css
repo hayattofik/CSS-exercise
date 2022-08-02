@@ -66,4 +66,98 @@
     z-index: 1;
   }
   
+.green{
+  width:300px;
+  height: 70px;
+  background-color:green;
+  aspect-ratio:1;
+  position:absolute;
+  left:50%;
+  top:100px;
   
+
+}
+.yellow{
+  width:300px;
+  height: 70px;
+  background-color:yellow;
+  aspect-ratio:1;
+  position:absolute;
+  left:50%;
+  top:170px;
+  
+
+}
+.red{
+  width:300px;
+  height: 70px;
+  background-color:red;
+  aspect-ratio:1;
+  position:absolute;
+  left:50%;
+  top:240px;
+  
+
+}
+.embelem{
+  width:30%;
+  height: 50%;
+  position:absolute;
+  z-index: 1;
+  left: 40%;
+  top:20px;
+}
+ .blue1,.blue2{
+  width:300px;
+  left: 60%;
+  height: 50px;
+  background-color:blue;
+  aspect-ratio:1;
+  position:absolute;
+ }
+ .blue1{
+  top: 270px;
+ }
+ .white1,.white2{
+  width:300px;
+  left: 60%;
+  height: 30px;
+  background-color:white;
+  aspect-ratio:1;
+  position:absolute;
+ }
+ .white1{
+  top:300px;
+ }
+ .red-c{
+  width:300px;
+ 
+  height: 90px;
+  background-color:red;
+  aspect-ratio:1;
+  position:absolute;
+  left: 60%;
+  top:320px;
+ }
+ .blue2{
+  top: 410px;
+ }
+ .dark-green{
+  width: 300px;
+  height: 200px;
+  aspect-ratio: 1;
+  background-color: #045c3c;
+  top: 418px;
+  position: absolute;
+  left:75%;
+
+ }
+ .red-circle{
+  left: 83%;
+  position: absolute;
+  aspect-ratio: 1;
+  top:460px;
+  width: 97px;
+  background-color: rgb(228, 54, 54);
+  border-radius: 50%;
+ }
